@@ -7,7 +7,7 @@ const Item = ({ url }) => <Image source={{ uri: url }} style={styles.item} />;
 const fetchData = async () => {
   try {
     const response = await axios.get(
-      "https://labipz.000webhostapp.com/data.json"
+      "https://wntrd.github.io/lab_android_new/data.json"
     );
     return response.data;
   } catch (error) {
