@@ -11,7 +11,7 @@ import axios from "axios";
 const fetchData = async () => {
   try {
     const response = await axios
-      .get("https://labipz.000webhostapp.com/data.json")
+      .get("https://wntrd.github.io/lab_android_new/data.json")
       .then((res) => res["data"]);
     console.log(response);
     return response;
